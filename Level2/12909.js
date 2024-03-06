@@ -9,6 +9,5 @@ function solution(s) {
     if (cnt < 0) return false;
   }
 
-  if (cnt === 0) return true;
-  return false;
+  return cnt === 0 ? true : false;
 }
